@@ -1,0 +1,7 @@
+index.php
+OpenIdConnect
+chart_bolsas
+NAO
+cons
+chart_bolsas
+LigMd5

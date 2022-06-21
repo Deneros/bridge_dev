@@ -1,0 +1,12 @@
+.css_actualizaid_label {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_actualizaid_grid_line {vertical-align: top;text-align: right;}
+.css_oldparameters_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_oldparameters_grid_line {vertical-align: top;text-align: left;}
+.css_currentsql_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_currentsql_grid_line {vertical-align: top;text-align: left;}
+.css_transactionid_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_transactionid_grid_line {vertical-align: top;text-align: left;}
+.css_actualizafecha_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_actualizafecha_grid_line {vertical-align: top;text-align: center;}
+.css_observacion_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_observacion_grid_line {vertical-align: top;text-align: left;}

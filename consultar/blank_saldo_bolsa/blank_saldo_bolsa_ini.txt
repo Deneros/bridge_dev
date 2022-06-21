@@ -1,0 +1,7 @@
+index.php
+OpenIdConnect
+blank_saldo_bolsa
+NAO
+blank
+blank_saldo_bolsa
+LigMd5

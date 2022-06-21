@@ -1,0 +1,12 @@
+{
+  "keys": [
+    {
+      "kty": "RSA",
+      "n": "qdTn2UU3_qQi2qGZkFajPLgkvToBx0XEYWKu8FlpKK6lZj2_v7jRivXYzEROXRoN2hz6VMbbJwGETlj32lBdQnQfRQviJIe9HRq8VpvzA1F4tkX8ng_0xWN0sJ86FPLt2d_xaIhJsWRUuSvQIWTXG7RsLTSH5bo9CBv2OYtxvYmi3jewrDCBwFrllG_A9KrzARbqu35Xk_YmKEkCMdHs_F_xpMKMyxUTcji54n9WJuPXn9dwde1EAknTFRidHYSCHK2XVX83xjk1tHw3W2bn0Kdq9gOT7Kp9Q2Ajw8N7IwMHLWoQMez4h7C5Rp9psohzxTBFmt9Glx7s_LWB8Er7OQ",
+      "e": "AQAB",
+      "alg": "RS384",
+      "kid": "OneGate_Ado",
+      "use": "sig"
+    }
+  ]
+}

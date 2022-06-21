@@ -1,0 +1,65 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style-verificar.css" media="screen" />
+    <script language="javascript">
+        function fncOpenVerificar(){
+            var opciones = "toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=800,height=600,left = 390,top = 50";
+         
+            //window.open(link,"_blank",opciones);
+            
+            const form = document.createElement('form');
+            form.method = "post";
+            form.action = "https://adocolombia-qa.ado-tech.com/SunticQA/verificar-persona";
+            form.target="print_popup";
+            form.onsubmit=window.open('about:blank','print_popup',opciones);
+            
+            const entradas = [['projectName','SunticQA'],
+                            ['documentType','1'],
+                            ['Key','db92efc69991'],
+                            ['Callback','https://portal-id.com/2fa-reconocimiento-facial/OneGate/validacion.php'],
+                            ['product','1'],
+                            ["Verificar","Verificar"],
+                            ["identificationNumber",""]];
+            
+            for (var i=0; i<entradas.length; i++) {
+                const hiddenField = document.createElement('input');
+                hiddenField.setAttribute('type', 'hidden');
+                hiddenField.setAttribute('name', entradas[i][0]);
+                hiddenField.setAttribute('value', entradas[i][1]);
+                form.appendChild(hiddenField);
+            }
+            
+            document.body.appendChild(form);
+            form.submit();
+            
+        }
+        
+    </script>
+</head>
+
+<body>
+    <form name="autenticacion" action="" method="post">
+    <center><table border="1" width="300px">
+        <tr><th colspan="2">OneGate</th></tr>
+        
+        <tr><th>Document: </th>
+            <td><input type="text" name="person[IdNumber]" value="1144095243" /></td>
+        </tr>
+        
+        <tr><th>IdState: </th>
+            <td><input type="text" name="person[Extras][IdState]" value="14" /></td>
+        </tr>
+        
+        <tr><th>TransactionId: </th>
+            <td><input type="text" name="person[TransactionId]" value="1378" /></td>
+        </tr>
+        
+    <tr><td colspan="2"><input type="submit" name="aceptar" value="aceptar" />
+         <input type="reset" name="limpiar" value="limpiar" />
+    </tr>
+    
+    </table></center>
+    </form>
+    
+</body>
+</html>

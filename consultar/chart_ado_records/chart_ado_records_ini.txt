@@ -1,0 +1,7 @@
+index.php
+OpenIdConnect
+chart_ado_records
+NAO
+cons
+chart_ado_records
+LigMd5

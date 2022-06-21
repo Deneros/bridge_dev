@@ -1,0 +1,7 @@
+index.php
+OpenIdConnect
+form_ado_records_borrar
+NAO
+form
+form_ado_records_borrar
+LigMd5

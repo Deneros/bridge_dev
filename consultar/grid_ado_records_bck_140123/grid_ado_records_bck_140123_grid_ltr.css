@@ -1,0 +1,34 @@
+.css_record_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_record_grid_line {vertical-align: middle;text-align: right;}
+.css_startingdate_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_startingdate_grid_line {vertical-align: middle;text-align: center;}
+.css_creationip_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_creationip_grid_line {vertical-align: middle;text-align: left;}
+.css_idnumber_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_idnumber_grid_line {vertical-align: middle;text-align: left;}
+.css_firstname_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_firstname_grid_line {vertical-align: middle;text-align: left;}
+.css_secondname_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_secondname_grid_line {vertical-align: middle;text-align: left;}
+.css_firstsurname_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_firstsurname_grid_line {vertical-align: middle;text-align: left;}
+.css_secondsurname_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_secondsurname_grid_line {vertical-align: middle;text-align: left;}
+.css_gender_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_gender_grid_line {vertical-align: middle;text-align: center;}
+.css_issuedate_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_issuedate_grid_line {vertical-align: middle;text-align: center;}
+.css_birthdate_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_birthdate_grid_line {vertical-align: middle;text-align: center;}
+.css_placebirth_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_placebirth_grid_line {vertical-align: middle;text-align: left;}
+.css_transactiontypename_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_transactiontypename_grid_line {vertical-align: middle;text-align: left;}
+.css_transactionid_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_transactionid_grid_line {vertical-align: middle;text-align: left;}
+.css_productid_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_productid_grid_line {vertical-align: middle;text-align: left;}
+.css_extras_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_extras_grid_line {vertical-align: middle;text-align: left;}
+.css_btnimagenes_label {text-align:;vertical-align:middle;justify-content:;font-weight:bold;}
+.css_btnimagenes_grid_line {text-align: center;}

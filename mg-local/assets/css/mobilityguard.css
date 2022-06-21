@@ -1,0 +1,1866 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/* ============================================================================
+   Base
+   ========================================================================= */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font: 400 13px/1.5 "Open Sans", Helvetica, sans-serif;
+  color: #444444;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*
+  @media screen and (min-width: $medium-screen) {
+      font-size: 15px;
+  }
+  @media screen and (min-width: $large-screen) {
+      font-size: 16px;
+  }
+  */
+}
+
+body {
+  color: #444444;
+  background: #fff;
+}
+
+/* ============================================================================
+   Typography
+   ========================================================================= */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-weight: normal;
+  color: #444444;
+}
+
+p,
+ul,
+ol,
+li {
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+p,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0 0 1.5em 0;
+  padding: 0;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+h1 {
+  margin: 0 0 .75em 0;
+  font-size: 2em;
+}
+@media screen and (min-width: 700px) {
+  h1 {
+    margin: 0 0 .75em 0;
+    font-size: 2em;
+  }
+}
+
+h2 {
+  margin: 1.8em 0 .6em 0;
+  font-size: 1.5em;
+  line-height: 1.4;
+}
+@media screen and (min-width: 700px) {
+  h2 {
+    margin: 1.8em 0 .6em 0;
+    font-size: 1.4em;
+    line-height: 1.2;
+  }
+}
+
+h3 {
+  margin: 1em 0 .5em 0;
+  font-size: 1em;
+}
+
+h4 {
+  margin: 1em 0 .5em 0;
+  font-size: 1em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  color: #666666;
+}
+
+a {
+  color: #d3001b;
+  -webkit-text-underline-position: under;
+  -ms-text-underline-position: below;
+  text-underline-position: under;
+}
+a:hover {
+  color: #ff3a53;
+}
+
+pre {
+  background: #f5f5f5;
+  padding: 1.5em 20px;
+}
+
+ul,
+ol {
+  margin: 0 0 1.5em 0;
+  padding: 0 0 0 20px;
+}
+
+li {
+  margin-bottom: 0;
+  color: #666666;
+}
+
+dt {
+  font-weight: bold;
+  color: #d3001b;
+}
+
+dd {
+  margin: 0 0 1em 0;
+  color: #444444;
+}
+
+/* ============================================================================
+   Tables
+   ========================================================================= */
+caption {
+  padding: 10px 5px;
+}
+
+table {
+  border: 1px solid #444444;
+}
+
+th {
+  padding: 0.5em 10px;
+  border: 1px solid #444444;
+  background: #f5f5f5;
+  background: rgba(0, 0, 0, 0.04);
+  color: #444444;
+}
+
+tfoot th {
+  text-align: left;
+  border-bottom: 0;
+}
+
+td {
+  padding: 0.5em 10px;
+  color: #444444;
+  border: 1px solid #444444;
+  border-bottom: 0;
+}
+
+/* ============================================================================
+   General
+   ========================================================================= */
+hr {
+  margin: 3em 0 1.5em 0;
+  padding: 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+blockquote {
+  margin: 0 0 1.5em 0;
+  padding-left: 20px;
+  border-left: 1px solid #d3001b;
+}
+
+object {
+  outline: none;
+}
+
+figure {
+  margin: 1.5em 0;
+}
+
+/* ============================================================================
+   Forms
+   ========================================================================= */
+fieldset {
+  margin: 0 0 30px 0;
+  padding: 20px;
+  border: 1px solid #cccccc;
+}
+@media screen and (min-width: 700px) {
+  fieldset {
+    padding: 5px 20px;
+  }
+}
+
+legend {
+  padding: 0 2px;
+}
+
+label {
+  display: block;
+}
+
+label.long {
+  margin: 15px 0;
+  line-height: .9;
+}
+
+input[type="text"],
+input[type="email"] {
+  margin: 2px 0 10px 0;
+  padding: 5px 5px;
+  border: 1px solid #cccccc;
+}
+
+input:focus {
+  background: #fcfddd;
+}
+
+input.submit {
+  margin: 5px 0 10px 70px;
+}
+
+textarea {
+  width: 70%;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid #cccccc;
+}
+@media screen and (min-width: 700px) {
+  textarea {
+    width: 500px;
+  }
+}
+
+textarea:focus {
+  height: 300px;
+  -webkit-transition: all 1.0s ease-in-out;
+  -moz-transition: all 1.0s ease-in-out;
+  -o-transition: all 1.0s ease-in-out;
+  transition: all 1.0s ease-in-out;
+  background: #fcfddd;
+}
+
+/* ============================================================================
+   Basic print styles
+   ========================================================================= */
+@media print {
+  * {
+    color: #444444 !important;
+    background: transparent !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+    color: #444444 !important;
+  }
+
+  a:after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* don't show links for images */
+  .ir a:after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999999;
+    page-break-inside: avoid;
+  }
+
+  /* css-discuss.incutio.com/wiki/Printing_Tables */
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  @page {
+    margin: .5cm;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/* ============================================================================
+   General
+   ========================================================================= */
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -90px;
+}
+@media screen and (min-width: 700px) {
+  .page-wrap {
+    margin-bottom: -45px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .page-wrap {
+    margin-bottom: -45px;
+  }
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.footer,
+.page-wrap:after {
+  height: 90px;
+}
+@media screen and (min-width: 700px) {
+  .footer,
+  .page-wrap:after {
+    height: 45px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .footer,
+  .page-wrap:after {
+    height: 45px;
+  }
+}
+
+/* ============================================================================
+   Responsive video
+   ========================================================================= */
+.video-container {
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  padding-top: 30px;
+  padding-bottom: 56.25%;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* ============================================================================
+   Background images
+   ========================================================================= */
+.logged-in {
+  background: #d7e2eb url(../images/bg-photo-color.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.not-logged-in {
+  background: #7a7a7a url(../images/bg-photo-blackwhite.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div.logged-in,
+div.not-logged-in {
+  background-attachment: scroll;
+}
+
+/* ============================================================================
+   Top - with branding and language picker
+   ========================================================================= */
+.top {
+  overflow: hidden;
+  width: 100%;
+  height: 45px;
+  color: #cccccc;
+  background: #252525;
+  background: rgba(0, 0, 0, 0.7);
+  position: relative;
+  /* Logo */
+  /* Language selector */
+}
+@media screen and (min-width: 700px) {
+  .top {
+    height: 100px;
+  }
+}
+.top .logo {
+  position: absolute;
+  top: 5px;
+  left: 3px;
+  display: block;
+}
+@media screen and (min-width: 700px) {
+  .top .logo {
+    top: 27px;
+    left: 20px;
+    width: 220px;
+  }
+}
+.top .logo:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px #DA6167;
+}
+.top .logo img {
+  width: 130px;
+  height: auto;
+  padding: 10px 5px 3px 12px;
+}
+@media screen and (min-width: 700px) {
+  .top .logo img {
+    width: 200px;
+  }
+}
+.top .language-selector {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  padding: 5px 10px;
+  color: #929292;
+}
+@media screen and (min-width: 700px) {
+  .top .language-selector {
+    top: 25px;
+    right: 20px;
+  }
+}
+.top .language-selector label {
+  display: none;
+  margin-right: 5px;
+}
+@media screen and (min-width: 700px) {
+  .top .language-selector label {
+    display: inline;
+  }
+}
+.top .language-selector select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 3px 0 15px 0;
+  font-size: 15px;
+  padding: 2px 20px 2px 10px;
+  border: 0;
+  color: #fff;
+  background: url(../images/select-arrow.png) 96% 9px no-repeat;
+  background-size: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-clip: padding-box;
+}
+.top .language-selector select:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px #DA6167;
+}
+
+/* ============================================================================
+   Status - with logged in name and active method
+   ========================================================================= */
+.status {
+  background: #fff;
+  overflow: hidden;
+  width: 100%;
+  height: 40px;
+  border-top: 4px solid #932229;
+}
+.status-info {
+  margin: 7px 0 0 -15px;
+  list-style-type: none;
+}
+@media screen and (min-width: 700px) {
+  .status-info {
+    margin: 7px 0 0 5px;
+  }
+}
+.status-user, .status-method, .status-logout {
+  padding: 3px 6px 0 6px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #444444;
+}
+.status-user:focus, .status-method:focus, .status-logout:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px #DA6167;
+}
+.status-user:hover, .status-method:hover, .status-logout:hover {
+  color: #4d9a3d;
+}
+.status-user {
+  float: left;
+  margin-right: 20px;
+}
+.status-method {
+  float: left;
+  display: none;
+}
+@media screen and (min-width: 700px) {
+  .status-method {
+    display: inline;
+  }
+}
+.status-logout {
+  float: right;
+  margin-right: 10px;
+}
+@media screen and (min-width: 700px) {
+  .status-logout {
+    margin-right: 30px;
+  }
+}
+.status .icon {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+}
+.status .status-user .icon {
+  margin: 1px 5px 1px 1px;
+}
+
+/* ============================================================================
+   Footer
+   ========================================================================= */
+.footer {
+  clear: both;
+  overflow: hidden;
+  width: 100%;
+  color: #999999;
+}
+.footer p {
+  margin: 1em 0 0 0;
+  padding: 0;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+}
+.footer p .divider {
+  display: none;
+  padding: 0 10px;
+  color: #dddddd;
+  border: 0;
+}
+@media screen and (min-width: 700px) {
+  .footer p .divider {
+    display: inline;
+  }
+}
+.footer a {
+  color: #fff;
+}
+.footer--copyright, .footer--support, .footer--sales {
+  display: block;
+}
+@media screen and (min-width: 700px) {
+  .footer--copyright, .footer--support, .footer--sales {
+    display: inline;
+  }
+}
+
+.not-logged-in .footer p {
+  color: #aaa;
+}
+
+/* ============================================================================
+   List of authentication methods
+   ========================================================================= */
+.auth-methods {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.auth-methods a {
+  display: block;
+  margin: 5px 0;
+  padding: 10px 10px;
+  background: #f5f5f5;
+  line-height: 40px;
+  color: #4a4a4a;
+  text-decoration: none;
+  font-size: 18px;
+  border: 1px solid #888;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  background-clip: padding-box;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+.auth-methods a:hover {
+  background: #fff;
+  color: #4a4a4a;
+}
+.auth-methods a:focus {
+  background: #fff;
+  outline: none;
+  box-shadow: 0 0 2px 1px #DA6167;
+}
+.auth-methods a.disabled {
+  opacity: 0.2;
+}
+.auth-methods .icon {
+  margin: -5px 5px 0 0;
+  width: 50px;
+  height: 50px;
+  float: left;
+  background-size: 100%;
+}
+
+/* ============================================================================
+   Box
+   ========================================================================= */
+.box {
+  position: relative;
+  max-width: 290px;
+  margin: 5% auto;
+  padding: 30px;
+  background: #f5f5f5;
+  background: rgba(255, 255, 255, 0.5);
+  color: #000;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  background-clip: padding-box;
+}
+@media screen and (min-width: 700px) {
+  .box {
+    max-width: 650px;
+    background: #f5f5f5;
+    background: rgba(255, 255, 255, 0.7);
+  }
+}
+@media screen and (min-width: 1025px) {
+  .box {
+    max-width: 940px;
+  }
+}
+.box .back-button {
+  position: absolute;
+  display: block;
+  top: 20px;
+  left: 15px;
+}
+@media screen and (min-width: 700px) {
+  .box .back-button {
+    top: 25px;
+    left: 20px;
+  }
+}
+.box .back-button .icon {
+  display: block;
+  width: 20px;
+  height: 15px;
+  background-size: 100%;
+}
+@media screen and (min-width: 700px) {
+  .box .back-button .icon {
+    width: 26px;
+    height: 21px;
+  }
+}
+.box .back-button .icon-back {
+  display: block;
+}
+.box .back-button .icon-back-black {
+  display: none;
+}
+.box .back-button:hover .icon-back {
+  display: none;
+}
+.box .back-button:hover .icon-back-black {
+  display: block;
+}
+.box .heading {
+  font-size: 1.5em;
+  line-height: 1.2;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+}
+.box .subheading {
+  font-size: 1em;
+  font-weight: normal;
+  margin: -20px 0 20px 0;
+}
+.box ul {
+  padding: 0;
+}
+.box--login-options {
+  max-width: 400px;
+  background: none;
+}
+@media screen and (min-width: 700px) {
+  .box--login-options {
+    background: #f5f5f5;
+    background: rgba(255, 255, 255, 0.7);
+  }
+}
+.box--login-options .heading,
+.box--login-options .subheading,
+.box--login-options p {
+  text-align: center;
+  color: #fff;
+}
+@media screen and (min-width: 700px) {
+  .box--login-options .heading,
+  .box--login-options .subheading,
+  .box--login-options p {
+    text-align: left;
+    color: #444444;
+  }
+}
+.box--login {
+  background: #efefef url(../images/bg-icon-locked.svg) no-repeat 95% 10px;
+  background-size: 40px;
+  color: #333;
+  padding: 30px 30px 10px 30px;
+  /* Ok */
+  /* Error */
+}
+@media screen and (min-width: 700px) {
+  .box--login {
+    max-width: 400px;
+    background-size: 70px;
+  }
+}
+.box--login .heading {
+  font-size: 2.5em;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+.box--login .subheading {
+  font-size: 1.5em;
+  margin: -20px 0 20px 0;
+  text-align: center;
+}
+.box--login.ok {
+  background: #efefef url(../images/bg-icon-open.svg) no-repeat 95% 10px;
+  border: 3px solid #4d9a3d;
+  background-size: 40px;
+}
+@media screen and (min-width: 700px) {
+  .box--login.ok {
+    background-size: 70px;
+  }
+}
+.box--login.ok .heading,
+.box--login.ok .subheading {
+  color: #4d9a3d;
+}
+.box--login.error {
+  border: 3px solid #ba2c2c;
+}
+.box--login.error .heading,
+.box--login.error .subheading {
+  color: #ba2c2c;
+}
+.box--info {
+  background: #fff;
+  background: rgba(255, 255, 255, 0.9);
+  color: #444444;
+  /* Error */
+}
+@media screen and (min-width: 700px) {
+  .box--info {
+    max-width: 500px;
+  }
+}
+.box--info.error {
+  border: 3px solid #ba2c2c;
+}
+.box--info.error .heading,
+.box--info.error .subheading {
+  color: #ba2c2c;
+}
+.box--system-message {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px 10px;
+  margin: 5% auto -1% auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media screen and (min-width: 700px) {
+  .box--system-message {
+    padding: 10px 30px;
+    margin: 5% auto -3% auto;
+  }
+}
+.box--system-message p {
+  margin: 0;
+  color: #f5e38f;
+  font-weight: bold;
+  text-align: center;
+}
+.box--resources {
+  background: #fff;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+}
+@media screen and (min-width: 700px) {
+  .box--resources {
+    padding: 20px 30px 10px 30px;
+  }
+}
+.box--resources.error {
+  border: 3px solid #ba2c2c;
+}
+.box--resources.error h1 {
+  color: #ba2c2c;
+}
+.box--resources .text-container {
+  margin: 1em 30px 3em 30px;
+}
+
+/* ============================================================================
+   Buttons
+   ========================================================================= */
+.button {
+  border: 1px solid #333;
+  background: #eee;
+  color: #444444;
+  padding: 9px 16px;
+  cursor: pointer;
+  margin: 0 0 0 5px;
+  -webkit-appearance: none;
+  font-size: 1em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-clip: padding-box;
+  /* Primary action button, i.e. 'Ok' or 'Send' */
+  /* Secondary action button, i.e. 'Cancel' */
+  /* Link button */
+  /* Submit button for login methods */
+}
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px #DA6167;
+}
+.button:hover {
+  background: #ddd;
+}
+.button.disabled, .button.disabled:hover {
+  background: #eee;
+  border-color: #ccc;
+  color: #aaa;
+}
+.button--primary {
+  border: 1px solid #4d9a3d;
+  background: #4a9b37;
+  color: #fff;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.button--primary.disabled, .button--primary.disabled:hover {
+  text-shadow: none;
+}
+.button--primary:hover {
+  border: 1px solid #56b341;
+  background: #56b341;
+  color: #fff;
+}
+.button--secondary {
+  border-color: #b7b7b7;
+  background: transparent;
+  color: #666;
+}
+.button--secondary:hover {
+  background: #b7b7b7;
+  color: #fff;
+}
+.button--link {
+  text-decoration: none;
+}
+.button--width {
+    width: 200px;
+}
+.button--submit {
+  display: inline-block;
+  text-decoration: none;
+  color: #4a4a4a;
+  border: 1px solid #979797;
+  background-color: #fdfdfd;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fdfdfd), to(#dfdfdf));
+  background-image: -webkit-linear-gradient(top, #fdfdfd, #dfdfdf);
+  background-image: -moz-linear-gradient(top, #fdfdfd, #dfdfdf);
+  background-image: -ms-linear-gradient(top, #fdfdfd, #dfdfdf);
+  background-image: -o-linear-gradient(top, #fdfdfd, #dfdfdf);
+  background-image: linear-gradient(to bottom, #f4f5f5, #dfdfdf);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#fdfdfd, endColorstr=#dfdfdf);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-clip: padding-box;
+  /* Submit button for login methods - hover state */
+  /* Submit button for login methods - disabled state */
+}
+.button--submit:hover {
+  border: 1px solid #979797;
+  background-color: #d9dddd;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d9dddd), to(#c6c3c3));
+  background-image: -webkit-linear-gradient(top, #d9dddd, #c6c3c3);
+  background-image: -moz-linear-gradient(top, #d9dddd, #c6c3c3);
+  background-image: -ms-linear-gradient(top, #d9dddd, #c6c3c3);
+  background-image: -o-linear-gradient(top, #d9dddd, #c6c3c3);
+  background-image: linear-gradient(to bottom, #d9dddd, #c6c3c3);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d9dddd, endColorstr=#c6c3c3);
+}
+.button--submit.disabled, .button--submit.disabled:hover {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #aaa;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#d9dddd));
+  background-image: -webkit-linear-gradient(top, #fff, #d9dddd);
+  background-image: -moz-linear-gradient(top, #fff, #d9dddd);
+  background-image: -ms-linear-gradient(top, #fff, #d9dddd);
+  background-image: -o-linear-gradient(top, #fff, #d9dddd);
+  background-image: linear-gradient(to bottom, #fff, #d9dddd);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#fff, endColorstr=#d9dddd);
+}
+
+/* ============================================================================
+   Button helpers
+   ========================================================================= */
+.button-wrapper {
+  text-align: right;
+}
+
+/* ============================================================================
+   Basic forms
+   ========================================================================= */
+.basic-form p.center {
+  margin: 0;
+  text-align: center;
+}
+.basic-form label {
+  display: block;
+  margin: 0 0 0.25em 0;
+}
+.basic-form input[type="text"],
+.basic-form input[type="email"],
+.basic-form input[type="password"] {
+  width: 100%;
+  margin: 0 0 0.5em 0;
+  font-size: 20px;
+  padding: 5px 2%;
+  border: 1px solid #979797;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-clip: padding-box;
+}
+.basic-form input[type="text"]:hover, .basic-form input[type="text"]:focus,
+.basic-form input[type="email"]:hover,
+.basic-form input[type="email"]:focus,
+.basic-form input[type="password"]:hover,
+.basic-form input[type="password"]:focus {
+  outline: none;
+  background: #FFFEE7;
+  color: #000;
+}
+.basic-form input[type="submit"] {
+  font-size: 13px;
+  width: 100%;
+  margin: 10px 0 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 700px) {
+  .basic-form input[type="submit"] {
+    width: auto;
+    margin: 10px 0 0 10px;
+  }
+}
+.basic-form input[type="submit"]:focus {
+  outline: #DA6167 auto 5px;
+  color: #000;
+}
+.basic-form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 5px 0 15px 0;
+  width: 100%;
+  font-size: 15px;
+  padding: 6px 10px;
+  border: 1px solid #979797;
+  background: url(../images/select-arrow.png) 96% 12px no-repeat;
+  background-size: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-clip: padding-box;
+}
+.basic-form select:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px #DA6167;
+}
+.basic-form .error label {
+  color: #ba2c2c;
+  font-weight: bold;
+}
+.basic-form .error input[type="text"],
+.basic-form .error input[type="email"],
+.basic-form .error input[type="password"] {
+  border: 2px solid #ba2c2c;
+}
+
+/* ============================================================================
+   Login forms
+   ========================================================================= */
+.login-form {
+  font-size: 13px;
+  /* Login form modifiers - use classes on fieldset or .control-group */
+}
+.login-form fieldset {
+  border: 0;
+  border-bottom: 1px dotted black;
+  margin: 0;
+  padding: 2em 0;
+}
+.login-form fieldset:last-of-type {
+  border: 0;
+}
+#kss-node .login-form fieldset {
+  padding: 4em 0;
+}
+.login-form legend {
+  background: #fff;
+  color: #878787;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  padding: 0;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  float: left;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  background-clip: padding-box;
+}
+.login-form p {
+  clear: left;
+  margin: 0;
+  color: #444444;
+}
+@media screen and (min-width: 700px) {
+  .login-form p {
+    clear: none;
+  }
+}
+.login-form p.notice {
+  margin: 1em 0;
+  font-size: 0.8em;
+}
+.login-form p.center {
+  clear: left;
+  width: 100%;
+  text-align: center;
+}
+.login-form label {
+  display: block;
+}
+.login-form input[type="text"],
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  margin: 0 0 0.75em 0;
+  font-size: 20px;
+  padding: 5px 2%;
+  border: 1px solid #979797;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-clip: padding-box;
+}
+.login-form input[type="text"]:hover, .login-form input[type="text"]:focus,
+.login-form input[type="email"]:hover,
+.login-form input[type="email"]:focus,
+.login-form input[type="password"]:hover,
+.login-form input[type="password"]:focus {
+  outline: none;
+  background: #FFFEE7;
+  color: #000;
+}
+.login-form .full-width-controls, .login-form .keypad, .login-form .matrix {
+  overflow: hidden;
+  background: #d8d8d8;
+  padding: 10px 30px;
+  margin: 0 -30px 10px -30px;
+  border-top: 1px solid #c7c7c7;
+  border-bottom: 1px solid #c7c7c7;
+}
+.login-form .keypad button {
+  float: left;
+  margin: 2px 1%;
+  padding: 0;
+  width: 18%;
+  height: 40px;
+  color: #717171;
+  font-size: 1.2em;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.login-form .keypad .notice {
+  clear: both;
+  margin: 0 2%;
+  padding: 5px 0;
+}
+.login-form .matrix--qr {
+  float: right;
+  margin-top: 5px;
+}
+.login-form .matrix--code {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.login-form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 5px 0 15px 0;
+  width: 100%;
+  font-size: 15px;
+  padding: 6px 10px;
+  border: 1px solid #979797;
+  background: url(../images/select-arrow.png) 96% 12px no-repeat;
+  background-size: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-clip: padding-box;
+}
+.login-form select:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px #DA6167;
+}
+.login-form input[type="checkbox"]:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px #DA6167;
+}
+.login-form input[type="submit"] {
+  float: right;
+  font-size: 13px;
+  margin-top: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 700px) {
+  .login-form input[type="submit"] {
+    min-width: 30%;
+  }
+}
+.login-form input[type="submit"]:focus {
+  background-color: #fdfdfd;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fdfdfd), to(#dfdfdf));
+  background-image: -webkit-linear-gradient(top, #fdfdfd, #dfdfdf);
+  background-image: -moz-linear-gradient(top, #fdfdfd, #dfdfdf);
+  background-image: -ms-linear-gradient(top, #fdfdfd, #dfdfdf);
+  background-image: -o-linear-gradient(top, #fdfdfd, #dfdfdf);
+  background-image: linear-gradient(to bottom, #f4f5f5, #dfdfdf);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#fdfdfd, endColorstr=#dfdfdf);
+  outline: #DA6167 auto 5px;
+  color: #000;
+}
+.login-form .remember-me {
+  float: left;
+  margin-top: 18px;
+  width: auto;
+}
+.login-form .dimmed label {
+  color: #999;
+}
+.login-form .dimmed input[type="text"],
+.login-form .dimmed input[type="password"] {
+  border: 1px solid #ccc;
+}
+.login-form .dimmed p {
+  color: #666;
+}
+@media screen and (min-width: 700px) {
+  .login-form .dimmed p {
+    color: #999;
+  }
+}
+.login-form .dimmed.keypad .button--submit, .login-form .dimmed.keypad .button--submit:hover {
+  background: #eee;
+  border: 1px solid #ccc;
+  color: #ddd;
+}
+.login-form .error label {
+  color: #ba2c2c;
+  font-weight: bold;
+}
+.login-form .error input[type="text"],
+.login-form .error input[type="email"],
+.login-form .error input[type="password"] {
+  border: 2px solid #ba2c2c;
+}
+
+.login-form--2-col fieldset {
+  border: 0;
+  border-bottom: 1px dotted black;
+  margin: 0;
+  padding: 2em 0;
+}
+@media screen and (min-width: 700px) {
+  .login-form--2-col fieldset {
+    margin: 0 0 0 35px;
+  }
+}
+.login-form--2-col fieldset:last-of-type {
+  border: 0;
+}
+#kss-node .login-form--2-col fieldset {
+  padding: 2em 0;
+}
+.login-form--2-col legend {
+  background: #fff;
+  color: #878787;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  padding: 0;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  float: left;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  background-clip: padding-box;
+}
+@media screen and (min-width: 700px) {
+  .login-form--2-col legend {
+    margin-left: -40px;
+  }
+}
+.login-form--2-col p.center {
+  width: 65%;
+}
+.login-form--2-col label {
+  clear: left;
+  width: 60%;
+}
+@media screen and (min-width: 700px) {
+  .login-form--2-col label {
+    clear: none;
+  }
+}
+.login-form--2-col input[type="text"],
+.login-form--2-col input[type="email"],
+.login-form--2-col input[type="password"] {
+  width: 55%;
+}
+.login-form--2-col input[type="submit"] {
+  float: right;
+  font-size: 13px;
+  margin-top: 0;
+}
+@media screen and (min-width: 700px) {
+  .login-form--2-col input[type="submit"] {
+    min-width: 30%;
+  }
+}
+.login-form--2-col .remember-me {
+  clear: left;
+  margin-top: 10px;
+}
+
+/* ============================================================================
+   Form helpers
+   ========================================================================= */
+.form-helper-text {
+  margin: 0;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+::-webkit-input-placeholder {
+  color: #dddddd;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #dddddd;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #dddddd;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:-ms-input-placeholder {
+  color: #dddddd;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================================================
+   Divider
+   ========================================================================= */
+.divider {
+  height: 1px;
+  border-bottom: 1px dotted black;
+}
+
+/* ============================================================================
+   Resources
+   ========================================================================= */
+.resources {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+@media screen and (min-width: 1025px) {
+  .resources {
+    margin: 0 100px;
+  }
+}
+.resources a {
+  border: 1px solid #c1c1c1;
+  width: 45%;
+  margin: 5px 2.5% 5px 2.5%;
+  padding: 0 5px;
+  min-height: 115px;
+  float: left;
+  display: block;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  color: #444444;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-clip: padding-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+@media screen and (min-width: 700px) {
+  .resources a {
+    width: 22%;
+    margin: 5px 1.5% 15px 1.5%;
+    min-height: 160px;
+  }
+}
+.resources a:hover {
+  color: #444444;
+  background: #f5f5f5;
+}
+.resources a:focus {
+  color: #444444;
+  background: #f5f5f5;
+  outline: none;
+  box-shadow: 0 0 2px 1px #DA6167;
+}
+.resources a.disabled {
+  opacity: 0.2;
+}
+.resources .icon {
+  margin: 5px auto 0 auto;
+  width: 60px;
+  height: 60px;
+}
+@media screen and (min-width: 700px) {
+  .resources .icon {
+    margin: 20px auto 0 auto;
+    width: 75px;
+    height: 75px;
+  }
+}
+
+/*# sourceMappingURL=mobilityguard.css.map */
+

@@ -1,0 +1,7 @@
+index.php
+OpenIdConnect
+grid_ado_records_tipo
+NAO
+cons
+grid_ado_records_tipo
+LigMd5

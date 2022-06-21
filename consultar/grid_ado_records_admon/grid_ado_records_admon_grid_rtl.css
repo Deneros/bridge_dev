@@ -1,0 +1,30 @@
+.css_record_label {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_record_grid_line {vertical-align: top;text-align: right;}
+.css_uid_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_uid_grid_line {vertical-align: top;text-align: right;}
+.css_startingdate_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_startingdate_grid_line {vertical-align: top;text-align: center;}
+.css_creationdate_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_creationdate_grid_line {vertical-align: top;text-align: center;}
+.css_creationip_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_creationip_grid_line {vertical-align: top;text-align: right;}
+.css_documenttype_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_documenttype_grid_line {vertical-align: top;text-align: right;}
+.css_idnumber_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_idnumber_grid_line {vertical-align: top;text-align: right;}
+.css_firstname_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_firstname_grid_line {vertical-align: top;text-align: right;}
+.css_secondname_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_secondname_grid_line {vertical-align: top;text-align: right;}
+.css_firstsurname_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_firstsurname_grid_line {vertical-align: top;text-align: right;}
+.css_gender_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_gender_grid_line {vertical-align: top;text-align: right;}
+.css_transactionid_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_transactionid_grid_line {vertical-align: top;text-align: right;}
+.css_transactiontypename_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_transactiontypename_grid_line {vertical-align: top;text-align: right;}
+.css_extras_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_extras_grid_line {vertical-align: top;text-align: right;}
+.css_response_ani_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_response_ani_grid_line {vertical-align: top;text-align: right;}

@@ -1,0 +1,7 @@
+index.php
+OpenIdConnect
+pdfreport_ado_records_bck
+NAO
+reportpdf
+pdfreport_ado_records_bck
+LigMd5
